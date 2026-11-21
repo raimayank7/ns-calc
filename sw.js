@@ -1,5 +1,5 @@
-const CACHE = 'ns-calc-c4f08346a9';
-const SHELL = ["/", "/assets/b-gsttools.155359457d.css", "/assets/b-core.3998b51f49.js", "/assets/b-store.f30f3a2e21.js", "/assets/books.js?v=e85725bd94", "/assets/xlsx.js?v=8918149ae7", "/assets/tally.js?v=8dc4a331c0", "/assets/acct.js?v=9fb0bd38a9", "/assets/cashare.js?v=c7cf4d6b68", "/assets/caui.js?v=b89018e749", "/assets/rpcore.js?v=d49d41003d"];
+const CACHE = 'ns-calc-76ef946669';
+const SHELL = ["/", "/assets/b-gsttools.664738f56b.css", "/assets/b-core.55c5db97e5.js", "/assets/b-store.f83201d6a6.js", "/assets/books.js?v=0aa00b40bd", "/assets/xlsx.js?v=8918149ae7", "/assets/tally.js?v=8dc4a331c0", "/assets/acct.js?v=9fb0bd38a9", "/assets/cashare.js?v=c7cf4d6b68", "/assets/caui.js?v=b89018e749", "/assets/rpcore.js?v=d49d41003d"];
 const WARM = [], LGROUPS = [];
 const slow = () => { const c = self.navigator && navigator.connection; return !!c && (c.saveData || /2g/.test(c.effectiveType || '')); };
 const keep = (c, list) => Promise.allSettled(list.map(u => c.match(u).then(m => m || c.add(u))));
